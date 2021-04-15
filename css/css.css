@@ -15,7 +15,9 @@ body#interface {
 	box-shadow: 0px 0px 10px black;
 	padding: 10px ;
 }
-
+div#margem{
+	border-top: 1px solid #380B61;
+}
 p {
 	text-align: justify;
 	text-indent: 50px;
@@ -84,6 +86,7 @@ figure.foto-legenda:hover figcaption{
 
 nav#menu {
 	display: block;
+
 }
 nav#menu ul{
 	list-style: none;
@@ -91,6 +94,7 @@ nav#menu ul{
 	position: absolute;
 	top: 150px;
 	left: 10px;
+	
 }
 nav#menu li{
 	display: inline-block;
@@ -98,6 +102,7 @@ nav#menu li{
 	padding: 10px;
 	margin: 1px;
 	transition: background-color 1s;
+	
 }
 nav#menu li:hover{
 	background-color: #606060;
@@ -121,6 +126,7 @@ section#corpo{
 	border-right: 1px solid #380B61;
 	padding-right: 35px;
     float: left;
+
 }
 article#not-1 h2{
 	font-size: 18pt;
@@ -157,7 +163,6 @@ aside#lateral{
 	padding: 10px;
 	margin:10px;
 	box-shadow: 4px 4px 4px rgba(0,0,0,.5);
-
 }
 aside#lateral h1{
 	font-family: 'FonteLogo';
