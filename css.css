@@ -5,12 +5,10 @@
 	src:url("bubblegum-sans-regular.otf");
 }
 
-body {
+body#interface {
 	color:#59429d;
 	font-family: 'Arial' sans-serif;
     background-color: #F0F8FF;
-}
-div#interface{
 	width: 1050;
 	background-color: white;
 	margin: 10px 40px 0px 40px;
